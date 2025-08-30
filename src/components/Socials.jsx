@@ -62,9 +62,19 @@ function Socials() {
                         </svg>
                     </a>
                     </li>
+                    <li>
+                        <a lang="en" id="cv" href="/CV-Ferazzani.pdf" target="_blank" aria-label="Curriculum Vitae" >
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="icon">
+                                <path d="M12 1C6.47715 1 2 5.47715 2 11V13C2 18.5228 6.47715 23 12 23C17.5228 23 22 18.5228 22 13V11C22 5.47715 17.5228 1 12 1Z" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M8 9H16" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M8 13H16" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M8 17H12" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
-        </div>
+        </div >
     )
 }
 

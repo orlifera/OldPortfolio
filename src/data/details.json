@@ -30,5 +30,21 @@
     "title": "Random Project",
     "description": "Progetto sviluppato per allenare le mie skill. Il sito è stato sviluppato in Typescipt e React. Il sito offre diverse funzionalità, come un countdown ad una targetDate, uno spazio dove inserire delle note di testo da file json, una wishlist che fa il retrieval dei dati con un fetch da un file json hostato sulla stessa GitHu Repo utilizzando le github api, una watchlist che utilizza TMDB e una galleria di immagini che usa yet-another-react-lightbox.",
     "repo": "https://github.com/orlifera/project"
+  },
+  {
+    "id": "thinky",
+    "img": "/thinky.png",
+    "caption": "Thinky - Home Page",
+    "title": "Thinky - WebApp per attività laboratoriali di OpenDay",
+    "description": "Progetto sviluppato per il tirocinio del corso di laurea in informatica. L'applicazione è stata sviluppata per essere utilizza durante le attività laboratoriali di OpenDay. L'app è stata pensata per essere utilizzata sotto la guida di un docente e mai in autonomia da parte dello studente. Le tecnologie utilizzate sono: NextJS, TailwindCSS e Firebase. Lapp è hostata sia su netlify che sui server dell'Ateneo.",
+    "repo": "https://github.com/orlifera/Thinky"
+  },
+  {
+    "id": "FeelDive website",
+    "img": "",
+    "caption": "No Image",
+    "title": "FeelDive Website - WIP",
+    "description": "Sito Web vetrina per il centro di immersioni FeelDive Scarlino. Attualmente work in progress.",
+    "repo": ""
   }
 ]

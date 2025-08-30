@@ -26,5 +26,19 @@
     "projectName": "Random Project",
     "description": "Random Website creato per allenare le mie skill. ",
     "repo": "https://github.com/orlifera/project"
+  },
+  {
+    "path": "/thinky.png",
+    "id": "thinky",
+    "projectName": "Thinky - WebApp per attività laboratoriali di OpenDay",
+    "description": "WebApp interattiva per lo svolgimento delle attività laboratoriali di OpenDay del corso di laurea in informatica dell'Università di Padova. ",
+    "repo": "https://github.com/orlifera/Thinky"
+  },
+  {
+    "path": "",
+    "id": "FeelDive website",
+    "projectName": "FeelDive Website - WIP",
+    "description": "Sito Web vetrina per il centro di immersioni FeelDive Scarlino. Attualmente work in progress.",
+    "repo": ""
   }
 ]

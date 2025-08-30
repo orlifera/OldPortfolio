@@ -9,6 +9,7 @@ function Contact() {
       <Socials />
       <Form />
 
+
     </>
   );
 }
