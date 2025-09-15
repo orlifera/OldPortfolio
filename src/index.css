@@ -449,24 +449,60 @@ h1.title {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   gap: 2em;
   list-style: none;
   padding-top: 1em;
   margin: 2em;
   padding-bottom: 3em;
+
+  /* responsive grid with max 4 cols */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+@media (min-width: 1200px) {
+  #projects {
+    grid-template-columns: repeat(4, 1fr);
+    /* lock at 4 cols */
+  }
 }
 
 .card {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* stretch inside grid cell */
   border-radius: 1em;
   background-color: var(--bg-200);
   box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
   padding: 1em;
   text-align: center;
-  display: inline-block;
   color: var(--text-100);
   font-size: 1em;
+}
+
+/* Force equal height across ALL rows */
+#projects > li {
+  display: flex;
+}
+
+#projects > li > .card-container {
+  flex: 1;
+  display: flex;
+}
+
+#projects > li > .card-container > .card {
+  flex: 1;
+}
+
+/* Handle text overflow cleanly */
+.card-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card:hover {
@@ -1157,4 +1193,12 @@ ol.song-list {
   overflow-x: hidden;
   overflow-y: auto;
   margin: 0 auto;
+}
+
+.links {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }

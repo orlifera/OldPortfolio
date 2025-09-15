@@ -5,7 +5,8 @@
     "caption": "ML Tech Home Page",
     "title": "ML Tech - E-commerce",
     "description": "Questo progetto è stato svolto tra novembre 2023 e febbraio 2024. Consisteva nel creare da 0 un sito web. Con il gruppo, abbiamo deciso di ricreare, in maniera differente e migliore il sito che utilizzo per la mia azienda. Fin da subito, dovendo utilizzare HTML5 e CSS3 ci siamo impegnati per rimanere consistenti e sviluppare un sito accessibile a tutte le categorie di utenti. Abbiamo deciso di utilizzare un design moderno e pulito, con un tema scuro e colori accesi dando comunuqe la possibilità di cambiare al tema chiaro. Abbiamo utilizzato JavaScript per la parte di interattività e PHP per la parte di back-end. Abbiamo utilizzato un database MySQL per la gestione dei dati. E' possibile visualizzare il sito clonando la repo con il comando 'git clone git@github.com:orlifera/TecWeb.git' e copiando la cartella sulla cartella htdocs di XAMPP. Successivamente, avviare Apache e MySQL e digitare 'localhost/TecWeb' nella barra di ricerca del browser. Sarà necessario inoltre runnare il file sql nella console di phpMyAdmin.",
-    "repo": "https://github.com/orlifera/TecWeb"
+    "repo": "https://github.com/orlifera/TecWeb",
+    "link": ""
   },
   {
     "id": "DB",
@@ -13,7 +14,8 @@
     "caption": "Diagramma ER ristrutturato",
     "title": "DataBase for E-commerce",
     "description": "Progetto basato su un database per un sito e-commerce avanzato, con magazzini sparsi per diverse città. Il database è stato creato per il progetto universitario del corso di Basi di Dati, che richiedeva la creazione, e il popolamento dello stesso. Come tecnologie, io e il collega abbiamo usato PostgreSQL e PGAdmin per la creazione e il popolamento del DB e C/C++ per le querys. Inoltre, è presente un file C/C++ nel quale son racchiuse le query. Creando il DB su PGAdmin, è possibile poi interrogarlo con il suddetto file.",
-    "repo": "https://github.com/orlifera/ProgettoBasiDati"
+    "repo": "https://github.com/orlifera/ProgettoBasiDati",
+    "link": ""
   },
   {
     "id": "PAO",
@@ -21,7 +23,8 @@
     "caption": "Diagramma UML della GUI",
     "title": "Tell Me Wine",
     "description": "Applicazione realizzata in coppia, per il progetto universitario del corso di Programmazione ad Oggetti. L'applicazione è stata sviluppata in C++, con l'ausilio di QT per la parte grafica. L'applicazione è stata sviluppata per la gestione dei sensori di rilevazione dati per la produzione viti-vinicola, in particolare sensori di pressione, temperatura e umidità. I sensori sono organizzati in 'Gruppi' che non sono altro che sensori collegati da un fattore logico comune. L'applicazione è in grado di generare i dati secondo diverse distribuzioni che seguono l'andamento reale del fenomeno misurato, gestire i sensori e le loro informazioni e creare un grafico per la visualizzazione dei dati misurati. Inoltre, è in grado di generare un file .json con i dati rilevati.",
-    "repo": "https://github.com/orlifera/PaO"
+    "repo": "https://github.com/orlifera/PaO",
+    "link": ""
   },
   {
     "id": "website",
@@ -29,7 +32,8 @@
     "caption": "Random Project WishList",
     "title": "Random Project",
     "description": "Progetto sviluppato per allenare le mie skill. Il sito è stato sviluppato in Typescipt e React. Il sito offre diverse funzionalità, come un countdown ad una targetDate, uno spazio dove inserire delle note di testo da file json, una wishlist che fa il retrieval dei dati con un fetch da un file json hostato sulla stessa GitHu Repo utilizzando le github api, una watchlist che utilizza TMDB e una galleria di immagini che usa yet-another-react-lightbox.",
-    "repo": "https://github.com/orlifera/project"
+    "repo": "https://github.com/orlifera/project",
+    "link": "https://https://watchlist-gallery.netlify.app/"
   },
   {
     "id": "thinky",
@@ -37,7 +41,8 @@
     "caption": "Thinky - Home Page",
     "title": "Thinky - WebApp per attività laboratoriali di OpenDay",
     "description": "Progetto sviluppato per il tirocinio del corso di laurea in informatica. L'applicazione è stata sviluppata per essere utilizza durante le attività laboratoriali di OpenDay. L'app è stata pensata per essere utilizzata sotto la guida di un docente e mai in autonomia da parte dello studente. Le tecnologie utilizzate sono: NextJS, TailwindCSS e Firebase. Lapp è hostata sia su netlify che sui server dell'Ateneo.",
-    "repo": "https://github.com/orlifera/Thinky"
+    "repo": "https://github.com/orlifera/Thinky",
+    "link": "https://prodotto.netlify.app/"
   },
   {
     "id": "FeelDive website",
@@ -45,14 +50,15 @@
     "caption": "No Image",
     "title": "FeelDive Website - WIP",
     "description": "Sito Web vetrina per il centro di immersioni FeelDive Scarlino. Attualmente work in progress.",
-    "repo": ""
+    "repo": "https://feeldive.netlify.app"
   },
   {
     "id": "QuoteGenerator app",
-    "img": "",
+    "img": "/feeldive.ong",
     "caption": "No Image",
     "title": "QuoteGenerator App - WIP",
     "description": "Applicazione web per la generazione di preventivi per la mia azienda",
-    "repo": ""
+    "repo": "https://github.com/orlifera/QuoteGenerator",
+    "link": "https://quotegenml.netlify.app/"
   }
 ]

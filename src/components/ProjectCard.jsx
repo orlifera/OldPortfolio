@@ -12,8 +12,8 @@ function Card(props) {
                 <Link to={ `/projects/${id}` }>
                     <div className="card-content">
                         <img className='profile-picture' alt="profile picture" src={ path }></img>
-                        <h2 className='card-title'>Project: { projectName }</h2>
-                        <p className='card-desc'>Description: { description }</p>
+                        <h2 className='card-title'>{ projectName }</h2>
+                        <p className='card-desc'>{ description }</p>
                     </div>
                 </Link>
                 <div className='card-footer'>

@@ -24,7 +24,6 @@ function Projects() {
                             description={ projects.description }
                             repo={ projects.repo }
                         />
-                        { console.log(projects.repo) }
                         {/* </Link> */ }
                     </li>
                 )) }
