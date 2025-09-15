@@ -46,5 +46,13 @@
     "title": "FeelDive Website - WIP",
     "description": "Sito Web vetrina per il centro di immersioni FeelDive Scarlino. Attualmente work in progress.",
     "repo": ""
+  },
+  {
+    "id": "QuoteGenerator app",
+    "img": "",
+    "caption": "No Image",
+    "title": "QuoteGenerator App - WIP",
+    "description": "Applicazione web per la generazione di preventivi per la mia azienda",
+    "repo": ""
   }
 ]
