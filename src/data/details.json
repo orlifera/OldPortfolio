@@ -46,16 +46,17 @@
   },
   {
     "id": "FeelDive website",
-    "img": "",
-    "caption": "No Image",
+    "img": "/feeldive.png",
+    "caption": "Feeldive Homepage",
     "title": "FeelDive Website - WIP",
     "description": "Sito Web vetrina per il centro di immersioni FeelDive Scarlino. Attualmente work in progress.",
-    "repo": "https://feeldive.netlify.app"
+    "repo": "https://feeldive.netlify.app",
+    "link": "https://feeldive.netlify.app/"
   },
   {
     "id": "QuoteGenerator app",
-    "img": "/feeldive.ong",
-    "caption": "No Image",
+    "img": "",
+    "caption": "",
     "title": "QuoteGenerator App - WIP",
     "description": "Applicazione web per la generazione di preventivi per la mia azienda",
     "repo": "https://github.com/orlifera/QuoteGenerator",
