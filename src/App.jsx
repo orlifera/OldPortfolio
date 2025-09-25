@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/projects" element={ <Projects /> } />
-        <Route path="/contact" element={ <Contact /> } />
+        <Route path="/contatti" element={ <Contact /> } />
         <Route path="/projects/:id" element={ <ProjectDetails /> } /> {/* Updated path */ }
         <Route path="/todo" element={ <Kanban /> } />
       </Routes>

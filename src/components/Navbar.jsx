@@ -50,7 +50,7 @@ const navLinks = [
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About Me' },
     { to: '/projects', label: 'Progetti' },
-    { to: '/contact', label: 'Contatti' },
+    { to: '/contatti', label: 'Contatti' },
     { to: '/todo', label: 'ToDo' },
 ];
 
