@@ -216,7 +216,16 @@ a:hover:not(.card a, .playlist-link, header a) {
   margin: -1px !important;
 }
 
+.ttt-intro {
+  text-align: center;
+  color: var(--text-100);
+  padding: 2em;
+  font-size: 1.2em;
+}
 
+.ttt-intro p {
+  margin: 2em;
+}
 
 /*CONTACTS*/
 #heading {

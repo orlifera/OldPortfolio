@@ -47,11 +47,9 @@ function Navbar() {
 
 // Define dynamic navigation links
 const navLinks = [
-    { to: '/', label: 'Home' },
-    { to: '/about', label: 'About Me' },
-    { to: '/projects', label: 'Progetti' },
-    { to: '/contatti', label: 'Contatti' },
-    { to: '/todo', label: 'ToDo' },
+    { to: '/', label: 'Tic Tac Toe' },
+    { to: '/about', label: 'Spotify Widget' },
+    { to: '/kanban', label: 'Kanban' },
 ];
 
 export default Navbar;

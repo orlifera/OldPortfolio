@@ -32,10 +32,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
-        <Route path="/projects" element={ <Projects /> } />
-        <Route path="/contatti" element={ <Contact /> } />
-        <Route path="/projects/:id" element={ <ProjectDetails /> } /> {/* Updated path */ }
-        <Route path="/todo" element={ <Kanban /> } />
+        <Route path="/kanban" element={ <Kanban /> } />
       </Routes>
       { windowWidth > 768 ? <Footer /> : null }
     </>
